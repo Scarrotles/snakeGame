@@ -79,9 +79,6 @@ def next_turn(snake, food):
     
     else:
         window.after(SPEED, next_turn, snake, food)
-    
-    
-    window.after(SPEED, next_turn, snake, food)
 
 def change_direction(new_direction):
     
